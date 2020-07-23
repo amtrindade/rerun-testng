@@ -11,4 +11,4 @@ public interface IRetryAnalyzer {
 	   * @return true if the test method has to be retried, false otherwise.
 	   */
 	  public boolean retry(ITestResult result);
-	}
+}

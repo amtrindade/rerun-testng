@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="POC ReRun TestNG">
+	<listeners>
+		<listener class-name="com.trindatech.AnnotationTransformer" />
+	</listeners>
     <test name="Regression">
          <classes>
              <class name="com.trindatech.MessageTest"/>
