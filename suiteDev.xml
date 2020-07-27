@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="POC ReRun TestNG">
 	<listeners>
-		<listener class-name="com.trindatech.AnnotationTransformer" />
+		<listener class-name="com.trindatech.core.AnnotationTransformer" />
 	</listeners>
     <test name="Regression">
          <classes>
-             <class name="com.trindatech.MessageTest"/>
+             <class name="com.trindatech.test.MessageTest"/>
           </classes>
      </test>
 </suite>

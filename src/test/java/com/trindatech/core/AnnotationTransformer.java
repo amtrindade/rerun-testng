@@ -1,4 +1,4 @@
-package com.trindatech;
+package com.trindatech.core;
 
 import org.testng.IAnnotationTransformer;
 import java.lang.reflect.Constructor;

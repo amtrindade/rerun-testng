@@ -1,4 +1,4 @@
-package com.trindatech;
+package com.trindatech.test;
 
 import static org.junit.Assert.assertTrue;
 
